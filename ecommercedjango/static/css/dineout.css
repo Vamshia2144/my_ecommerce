@@ -1,0 +1,107 @@
+#head{
+    margin: 0;
+    width: 100%;
+    height: 100px;
+    box-shadow: 0 0 5px gray;
+    position: sticky;
+    top: 0px;
+    background-color: rgb(254,82,0);
+}
+header span{
+    font-size: 60px;
+    color: white;
+    margin-left: 12px;
+}
+h1{
+    font-size: 60px;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+.fa-cookie-bite{
+    font-size: 55px;
+    color: white;
+    margin-top: 25px;
+    margin-left: 70px;
+}
+.fa-cookie-bite:hover{
+    transform: scale(1.2);
+}
+#cart-btn{
+    width: 100px;
+    height: 50px;
+    color: rgb(254,82,0);
+    font-size: 25px;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid rgb(254,82,0);
+    position: absolute;
+    top: 23px;
+    right: 50px;
+}
+#cart-btn:hover{
+    box-shadow: 0 0 5px white;
+}
+article{
+    text-align: center;
+}
+figure{
+    width: 250px;
+    height: 500px;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+figure:hover{
+    box-shadow: 0 0 10px rgb(201, 195, 195);
+}
+figcaption{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 15px;
+}
+figure img{
+    width: 250px;
+    height: 220px;
+    border-radius: 20px;
+}
+.fa-star{
+    color: rgb(23, 135, 63);
+}
+span{
+    margin-top: 25px;
+    font-size: 20px;
+}
+.discount{
+    width: 250px;
+    height: 25px;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 15px;
+}
+.bank-offers{
+    background-color: lightgreen;
+    color: black;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.book-btn{
+    background-color: green;
+    border: 2px solid green;
+    color: white;
+    border-radius: 30px;
+    width: 130px;
+    height: 50px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.book-btn:hover{
+    border: 2px solid green;
+    background-color: white;
+    color: green;
+    box-shadow: 0 0 5px green;
+}

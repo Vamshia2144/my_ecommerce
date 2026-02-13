@@ -1,0 +1,17 @@
+{% load static%}
+<head>
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="{% static 'css/cart.css' %}">
+</head>
+<body>
+    <div id="head">
+        <a href="/home/"><i class="fa-sharp fa-solid fa-cookie-bite"></i></a>
+    <span id="title">Have iT</span>
+    </div>
+    <h1>Your Cart</h1>
+    <div id="cart-items"></div><br>
+    <button onclick="clearCart()" id="clear-btn">Clear Cart</button>
+    <script src="{% static 'javascript/cart.js' %}"></script>
+</body>
+</html>

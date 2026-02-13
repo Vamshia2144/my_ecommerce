@@ -1,0 +1,116 @@
+*{
+    margin-left: 25px;
+}
+#login{
+    display: inline-block;
+    position: relative;
+    top: 40px;
+}
+fieldset{
+    border-radius: 50px;
+    margin: 20px;
+    padding: 25px;
+    width: 450px;
+    height: 45px;
+    border: 2px solid gray;
+}
+fieldset ::placeholder{
+    color: gray;
+    font-size: 20px;
+}
+fieldset input{
+    width: 350px;
+    height: 35px;
+    border: none;
+    outline: none;
+    margin-top: 0px;
+    font-size: 25px;
+    padding-left: 10px;
+}
+legend{
+    color: rgb(255, 86, 25);
+    font-size: 25px;
+}
+h2{
+    color: rgb(255, 86, 25);
+    font-size: 35px;
+    margin-bottom: 5px;
+    margin-left: 58px;
+    margin-top: 30px;
+}
+h4{
+    margin-left: 58px;
+    margin-top: 0px;
+}
+button{
+    background-color: rgb(255, 86, 25);
+    color: white;
+    font-size: 25px;
+    margin-top: 18px;
+    margin-left: 20px;
+    text-align: center;
+    width: 500px;
+    height: 60px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+}
+a{
+    color: rgb(255, 86, 25);
+    margin-left: 0px;
+}
+p{
+    margin-left: 55px;
+}
+#signup{
+    width: 650px;
+    height: 500px;
+    position: relative;
+    top: 40px;
+    left: 150px;
+    background-color: rgb(245, 239, 237);
+    border-radius: 30% 0 0 30%;
+    display: inline-block;
+    border-left: 2px solid rgb(255, 86, 25);
+    padding: 20px;
+}
+.input{
+    width: 350px;
+    height: 35px;
+    display: inline;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    border: 2px solid gray;
+    padding-left: 15px;
+    font-size: 17px;
+}
+#message{
+    width: 550px;
+    height: 50px;
+    position: relative;
+    top: 5px;
+    left: 500px;
+    font-size: 25px;
+    color: rgb(255, 86, 25);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.fa-cookie-bite{
+    font-size: 55px;
+    color: rgb(255, 86, 25);
+    position: relative;
+    top: 25px;
+    left: 10px;
+    margin-bottom: 0px;
+}
+.fa-cookie-bite:hover{
+    transform: scale(1.2);
+}
+#title{
+    font-size: 50px;
+    color: rgb(255, 86, 25);
+    margin-left: 12px;
+    position: relative;
+    top: 25px;
+    left: 10px;
+    margin-bottom: 0px;
+}

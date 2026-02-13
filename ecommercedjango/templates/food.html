@@ -1,0 +1,133 @@
+{% load static %}
+<head>
+    <title>food page</title>
+    <link rel="stylesheet" href="{% static 'css/food.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="head">
+        <a href="/home/"><i class="fa-sharp fa-solid fa-cookie-bite"></i></a>
+        <span>Have iT</span>
+        <a href="/cart/"><button id="btn">Cart</button></a>
+    </header>
+    <section>
+        <h1>Have iT every day</h1>
+        <article>
+            <figure>
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/brmkurrhirop5y9mwtuf" alt="food">
+                <figcaption>Biryani</figcaption>
+                <h2>30%OFF Above 1200</h2>
+                <span id="rating"><i class="fa-solid fa-star">4.6</i> Rating</span><span class="price">Rs.399/-</span><br>
+                <button class="cart-btn">Add to Cart</button>
+            </figure>
+            <figure>
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/r1m61bi2qzphrcqzhehk" alt="food">
+                <figcaption>Pizza</figcaption>
+                <h2>25%OFF Above 1200</h2>
+                <span><i class="fa-solid fa-star">4.4</i> Rating</span><span class="price">Rs.425/-</span><br>
+                <button class="cart-btn">Add to Cart</button>
+            </figure>
+            <figure>
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2024/10/22/0677b1c8-cce8-4302-a4fb-b60617363164_3ac65a75-1569-4663-8593-aa298ab24c05.jpg" alt="food" >
+                <figcaption>Burger</figcaption>
+                <h2>35%OFF Above 1500</h2>
+                <span><i class="fa-solid fa-star">4.4</i> Rating</span><span class="price">Rs.359/-</span><br>
+                <button class="cart-btn">Add to Cart</button>
+            </figure>
+            <figure>
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/bzzecnfjh3mhogushkxz" alt="food" >
+                <figcaption>Shawarma</figcaption>
+                <h2>15%OFF Above 900</h2>
+                <span><i class="fa-solid fa-star">4.3</i> Rating</span><span class="price">Rs.199/-</span><br>
+                <button class="cart-btn">Add to Cart</button>
+            </figure>
+            <figure>
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/hjpbgpuoarzjiyarrqy5" alt="food">
+                <figcaption>South Indian</figcaption>
+                <h2>20%OFF Above 1100</h2>
+                <span><i class="fa-solid fa-star">4.2</i> Rating</span><span class="price">Rs.239/-</span><br>
+                <button class="cart-btn">Add to Cart</button>
+            </figure>
+            <figure>
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/0f73508b3da65d4d7f57716730385e8c" alt="food" >
+                <figcaption>Pav Bhaji</figcaption>
+                <h2>20%OFF Above 1500</h2>
+                <span><i class="fa-solid fa-star">4.2</i> Rating</span><span class="price">Rs.149/-</span><br>
+                <button class="cart-btn">Add to Cart</button>
+            </figure>
+            <figure>
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/FOOD_CATALOG/IMAGES/CMS/2024/6/7/0bc39a1f-61a6-4676-8d62-d4bd41db037b_6e70bffc-9119-4770-942d-2e2f28ce7d64.jpeg" alt="food">
+                <figcaption>Idli</figcaption>
+                <h2>10%OFF Above 500</h2>
+                <span><i class="fa-solid fa-star">4.4</i> Rating</span><span class="price">Rs.99/-</span><br>
+                <button class="cart-btn">Add to Cart</button>
+            </figure>
+            <figure>
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/a9ftokru06shztntaaex" alt="food" >
+                <figcaption>Dosa</figcaption>
+                <h2>15%OFF Above 600</h2>
+                <span><i class="fa-solid fa-star">4.5</i> Rating</span><span class="price">Rs.129/-</span><br>
+                <button class="cart-btn">Add to Cart</button>
+            </figure>
+            <figure>
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2025/1/2/84bb1436-dcfa-49d2-944e-1414afedc964_378344.jpg" alt="food">
+                <figcaption>Cake</figcaption>
+                <h2>20%OFF Above 1500</h2>
+                <span><i class="fa-solid fa-star">4.7</i> Rating</span><span class="price">Rs.599/-</span><br>
+                <button class="cart-btn">Add to Cart</button>
+            </figure>
+            <figure>
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2024/6/2/e4199cf6-fc9b-4475-9d1d-e807b3f4e6af_98c77060-4320-4c6b-8168-93c24406980b.jpg" alt="food">
+                <figcaption>Juice</figcaption>
+                <h2>20%OFF Above 1000</h2>
+                <span><i class="fa-solid fa-star">4.7</i> Rating</span><span class="price">Rs.199/-</span><br>
+                <button class="cart-btn">Add to Cart</button>
+            </figure>
+            <figure>
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2024/5/15/9a3907f6-d55a-4fb0-a010-c5477573e4e3_b69bc57a-157b-4b48-b84c-33293508c656.jpeg" alt="food" >
+                <figcaption>Shake</figcaption>
+                <h2>25%OFF Above 800</h2>
+                <span><i class="fa-solid fa-star">4.5</i> Rating</span><span class="price">Rs.189/-</span><br>
+                <button class="cart-btn">Add to Cart</button>
+            </figure>
+            <figure>
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/gbvrtyzhaoandtofbz4y" alt="food">
+                <figcaption>Chinese</figcaption>
+                <h2>15%OFF Above 400</h2>
+                <span><i class="fa-solid fa-star">4.4</i> Rating</span><span class="price">Rs.119/-</span><br>
+                <button class="cart-btn">Add to Cart</button>
+            </figure>
+            <figure>
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/kxvudr9703tklnjsolsv" alt="food">
+                <figcaption>Pure Veg</figcaption>
+                <h2>20%OFF Above 500</h2>
+                <span><i class="fa-solid fa-star">4.3</i> Rating</span><span class="price">Rs.129/-</span><br>
+                <button class="cart-btn">Add to Cart</button>
+            </figure>
+            <figure>
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/hb3qzkvancuvy5pc9aww" alt="food">
+                <figcaption>Paratha</figcaption>
+                <h2>10%OFF Above 300</h2>
+                <span><i class="fa-solid fa-star">4.3</i> Rating</span><span class="price">Rs.79/-</span><br>
+                <button class="cart-btn">Add to Cart</button>
+            </figure>  
+            <figure>
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/6/13/b3739937-c8ca-40ea-96cd-03b049b4600e_612602.JPG" alt="food">
+                <figcaption>Ice Cream</figcaption>
+                <h2>15%OFF Above 600</h2>
+                <span><i class="fa-solid fa-star">4.6</i> Rating</span><span class="price">Rs.149/-</span><br>
+                <button class="cart-btn">Add to Cart</button>
+            </figure>
+            <figure>
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2024/11/9/2bbed8b9-de30-47e2-86c3-233b344b0f6c_6f3f4858-a5c6-45ea-95d8-80b37d79b368.JPG" alt="food">
+                <figcaption>Salad</figcaption>
+                <h2>20%OFF Above 800</h2>
+                <span><i class="fa-solid fa-star">4.5</i> Rating</span><span class="price">Rs.189/-</span><br>
+                <button class="cart-btn">Add to Cart</button>
+            </figure>        
+        </article>
+    </section>
+    <script src="{% static 'javascript/food.js' %}"></script>
+</body>
+</html>

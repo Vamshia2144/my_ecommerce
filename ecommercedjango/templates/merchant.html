@@ -1,0 +1,42 @@
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/merchant.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <div class="main">
+        <div>
+            <a href="/home/"><i class="fa-sharp fa-solid fa-cookie-bite"></i></a>
+        <span id="title">Have iT</span>
+        </div>
+        <div class="info">
+            <h4 style="color: rgb(254,82,0);">In Just 3 Easy Steps</h4>
+            <h2>Get your restaurant delivery-ready in 24hrs!</h2>
+            <ul>
+                <li style="color: rgb(254,82,0);">Step 1</li>
+                <p>Install the Swiggy Owner App</p>
+                <li style="color: rgb(254,82,0);">Step 2</li>
+                <p>Login/Register using your phone number</p>
+                <li style="color: rgb(254,82,0);">Step 3</li>
+                <p>Enter restaurant details</p>
+            </ul>
+        </div>
+        <div class="form">
+            <h2 style="color: rgb(254,82,0);">Get Started</h2>
+            <form method="post" action="{% url 'insert_merchant_data'%}">
+                {% csrf_token %}
+                <input type="text" placeholder="Enter Your Name" required class="input" name=mname>
+                <input type="text" placeholder="Enter Your Number" required class="input" name=mnumber>
+                <input type="email" placeholder="Enter Your Email" required class="input" name=memail>
+                <button class="input">Register</button>
+            </form>
+            <h5>By logging in, I agree to Swiggy’s <span><a href="/terms/" target="_blank" style="text-decoration: none;color:rgb(254,82,0)">terms & conditions</a></span></h5>
+
+        </div>
+    </div>
+</body>
+</html>

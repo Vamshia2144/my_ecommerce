@@ -1,0 +1,95 @@
+#head{
+    margin: 0;
+    width: 100%;
+    height: 100px;
+    box-shadow: 0 0 5px gray;
+    position: sticky;
+    top: 0px;
+    background-color: rgb(254,82,0);
+}
+header span{
+    font-size: 60px;
+    color: white;
+    margin-left: 12px;
+}
+h1{
+    font-size: 60px;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+.fa-cookie-bite{
+    font-size: 55px;
+    color: white;
+    margin-top: 25px;
+    margin-left: 70px;
+}
+.fa-cookie-bite:hover{
+    transform: scale(1.2);
+}
+#cart-btn{
+    width: 100px;
+    height: 50px;
+    color: rgb(254,82,0);
+    font-size: 25px;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid rgb(254,82,0);
+    position: absolute;
+    top: 23px;
+    right: 50px;
+}
+#cart-btn:hover{
+    box-shadow: 0 0 5px white;
+}
+article{
+    text-align: center;
+}
+figure{
+    width: 220px;
+    height: 450px;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+figure:hover{
+    box-shadow: 0 0 10px rgb(201, 195, 195);
+}
+figcaption{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+figure img{
+    width: 220px;
+    height: 220px;
+    border-radius: 20px;
+}
+.fa-star{
+    color: rgb(23, 135, 63);
+}
+h2{
+    color: rgb(62, 60, 60);
+}
+.add-cart{
+    background-color: green;
+    color: white;
+    border-radius: 30px;
+    width: 130px;
+    height: 60px;
+    font-size: 15px;
+    margin-top: 20px;
+    border: 2px solid green;
+}
+.add-cart:hover{
+    background-color: white;
+    border: 2px solid green;
+    color: green;
+    box-shadow: 0 0 5px green;
+}
+.price{
+    margin-left: 15px;
+    font-size: 20px;
+}
+.rating{
+    font-size: 20px;
+}

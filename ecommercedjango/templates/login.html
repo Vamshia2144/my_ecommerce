@@ -1,0 +1,50 @@
+{% load static %}
+<html>
+<head>
+    <link rel="stylesheet" href="{% static 'css/login.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <div>
+        <a href="/home/"><i class="fa-sharp fa-solid fa-cookie-bite"></i></a>
+        <span id="title">Have iT</span>
+    </div>
+    <div id="message">
+        {% if messages %}
+            {%for message  in messages%}
+                <p>{{message}}</p>
+            {%endfor%}
+            {% endif %}
+    </div>
+    <div id="login">
+        <h2>Login</h2>
+        <h4>login to your account</h4>
+        <form method="post" action="{% url 'userlogin' %}">
+            {% csrf_token %}
+            <fieldset>
+                <legend>Phone Number</legend>
+                <input type="text" max="10" placeholder="Enter Your number" name="lnumber"/>
+            </fieldset>
+            <fieldset>
+                <legend>Password</legend>
+                <input type="password" max="10" placeholder="Enter Your password" name="lpassword"/>
+            </fieldset>
+            <button>LOGIN</button>
+        </form>
+        <p>By clicking on Login, I accept the, <a href="/terms/" target="_blank" style="text-decoration: none">Terms & Conditions</a> & <a href="/terms/" target="_blank" style="text-decoration: none">Privacy Policy</a></p>
+    </div>
+    <div id="signup">
+        <h2 id="h2">Signup</h2>
+        <h4 id="h4">create an account</h4>
+        <form method="post" action="{% url 'insert_data' %}">
+            {% csrf_token %}
+            <input type="text" class="input" placeholder="Enter Your Name" name="name" required/>
+            <input type="text" class="input" placeholder="Enter Your Number" name="number" required/>
+            <input type="email" class="input" placeholder="Enter Your Email" name="email" required/>
+            <input type="password" class="input" placeholder="Enter Your password" name="password" required/>
+            <button>Signup</button>
+        </form>
+        <p>By creating an account, I accept the, <a href="/terms/" target="_blank" style="text-decoration: none">Terms & Conditions</a> & <a href="/terms/" target="_blank" style="text-decoration: none">Privacy Policy</a></p>
+    </div>
+</body>
+</html>

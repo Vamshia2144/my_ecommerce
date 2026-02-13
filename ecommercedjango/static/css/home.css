@@ -1,0 +1,411 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin: 0;
+    color:black;
+}
+.header{
+    background-color: rgb(255, 86, 25);
+    height: 850px;
+    position: relative;
+    margin-top: 0px;
+}
+.logo h1{
+    position: absolute;
+    top: 10px;
+    left: 135px;
+    color: white;
+}
+.fa-cookie-bite{
+    position: absolute;
+    top: 20px;
+    left: 65px;
+    color: white;
+    font-size: 60px;
+}
+.fa-cookie-bite:hover{
+    transform: scale(1.2);
+}
+.header-text{
+    font-size: 55px;
+    color: white;
+    padding: 50px;
+}
+.form{
+    margin-top: 0px;
+    width: 450px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 25px;
+    border: orangered;
+    outline: none;
+    box-shadow: 0 0 2px black;
+    padding-left: 20px;
+}
+.form:hover{
+    box-shadow: 0 0 5px black;
+}
+.fa-location-dot{
+    color: white;
+    font-size: 30px;
+}
+.location-form{
+    position: relative;
+    width: 300px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 25px;
+    border: orangered;
+    outline: none;
+    box-shadow: 0 0 2px black;
+    padding-left: 20px;
+}
+.location-form:hover{
+    box-shadow: 0 0 5px black;
+}
+.fa-magnifying-glass{
+    color: white;
+    font-size: 30px;
+}
+.btn{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 110px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    text-decoration: none;
+}
+.btn{
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+}
+.colab{
+    position: absolute;
+    top: 20px;
+    right: 150px;
+    color: orangered;
+    background-color: transparent;
+    font-size: 15px;
+    border: 2px solid white;
+    border-radius: 15px;
+    color: white;
+    width: 150px;
+    height: 50px;
+}
+.colab:hover{
+    box-shadow: 0 0 5px whitesmoke;
+    cursor: pointer;
+}
+.cart{
+    position: absolute;
+    top: 100px;
+    right: 90px;
+    color: orangered;
+    background-color: white;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 15px;
+    width: 100px;
+    height: 50px;
+}
+.cart:hover{
+    background-color: transparent;
+    border: 2px solid white;
+    box-shadow: 0 0 5px white;
+    cursor: pointer;
+    color: white;
+}
+figure{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: white;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin-top: 90px;
+}
+figure:hover{
+    box-shadow: 0 0 7px whitesmoke;
+    cursor: pointer;
+}
+.head{
+    position: absolute;
+    top: 5px;
+    left: 15px;
+    font-size: 18px;
+}
+.sub-head{
+    position: absolute;
+    top: 60px;
+    left: 15px;
+    color: gray;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.discount{
+    position: absolute;
+    top: 98px;
+    left: 15px;
+    color: orangered;
+    font-size: 12px;
+}
+.figure img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+    right: -10px;
+    bottom: -15px;
+    box-shadow: 0 0 10px black;
+}
+.fa-arrow-right{
+    font-size: 50px;
+    position: absolute;
+    left: 20px;
+    bottom: 25px;
+    color: orangered;
+}
+section{
+    position: relative;
+}
+article{
+    display: inline-block;
+    margin-top: 60px;
+}
+section h1{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.food img{
+    width: 180px;
+    height: 180px;
+    padding: 20px;
+}
+.food img:hover{
+    cursor: pointer;
+}
+.grocery{
+    position: relative;
+}
+.grocery h1{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.grocery-article{
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: -80px;
+    margin-left: -80px;
+}
+.grocery img{
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+}
+.grocery figcaption{
+    font-size: 20px;
+}
+.dineout article{
+    text-align: center;
+}
+.dineout figure{
+    width: 280px;
+    height: 380px;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+.dineout figure:hover{
+    box-shadow: 0 0 10px rgb(201, 195, 195);
+}
+.dineout figcaption{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 15px;
+}
+.dineout figure img{
+    width: 280px;
+    height: 220px;
+    border-radius: 10px;
+}
+.dineout .fa-star{
+    color: rgb(23, 135, 63);
+}
+.dineout span{
+    margin-top: 25px;
+    font-size: 20px;
+}
+.dineout .dis-cls{
+    width: 280px;
+    height: 28px;
+    background-color: green;
+    border-radius: 12px;
+    color: white;
+}
+.dineout .bank-offers{
+    background-color: lightgreen;
+    color: black;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.more{
+    width: 110px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+}
+.more:hover{
+    background-color: transparent;
+    color: rgb(255, 86, 25);
+    border: 2px solid rgb(255, 86, 25);
+    box-shadow: 0 0 10px rgb(255, 86, 25);
+    cursor: pointer;
+}
+.scan{
+    height: 300px;
+    background-color: rgb(255, 86, 25);
+    position: relative;
+}
+.scan-logo .fa-cookie-bite{
+    position: absolute;
+    top: 50px;
+    left: 220px;
+    color: white;
+}
+.scan-logo h1{
+    position: absolute;
+    top: 40px;
+    left: 290px;
+    color: white;
+    font-size: 25px;
+}
+.scan h2{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    font-size: 45px;
+    color: white;
+}
+.scan img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 30px;
+    right: 150px;
+}
+.scan img:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px white;
+}
+.scan h3{
+    position: absolute;
+    bottom: 10px;
+    right: 185px;
+    font-size: 25px;
+    color: white;
+}
+footer{
+    position: relative;
+    height: 350px;
+    color: rgb(254, 82, 0);
+}
+footer .fa-cookie-bite{
+    position: absolute;
+    top: 35px;
+    left: 165px;
+    color: rgb(254, 82, 0);
+    font-size: 80px;
+}
+footer h1{
+    position: absolute;
+    top: 25px;
+    left: 250px;
+    font-size: 40px;
+}
+footer h2{
+    position: absolute;
+    top: 110px;
+    left: 185px;
+    font-size: 18px;
+    color: gray;
+    font-style: italic;
+}
+footer .footer-nav{
+    position: absolute;
+    top: 10px;
+    right: 130px;
+}
+footer .footer-nav h5{
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px 25px;
+}
+footer .footer-nav h5 a{
+    color: rgb(254,82,0);
+    text-decoration: none;
+}
+footer .footer-nav h5:hover{
+    background-color: transparent;
+    border: 2px solid rgb(254, 82, 0);
+    box-shadow: 0 0 8px rgb(254, 82, 0);
+    border-radius: 30px;
+    cursor: pointer;
+}
+footer .social{
+    position: absolute;
+    top: 120px;
+    right: 350px;
+    font-size: 23px;
+}
+.social .fa-brands{
+    display: inline-block;
+    padding: 20px;
+}
+.fa-brands:hover{
+    filter: drop-shadow(0 0 2px rgb(254,82,0));
+}
+.line{
+    position: absolute;
+    bottom: 140px;
+    left: 170px;
+}
+footer h3{
+    position: absolute;
+    color: black;
+    font-size: 25px;
+    bottom: 40px;
+    left: 210px;
+}
+footer #apps{
+    position: absolute;
+    bottom: 10px;
+    right: 250px;
+} 
+footer #apps h6{
+    font-size: 18px;
+    padding: 10px 25px;
+    margin-right: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    display: inline-block;
+}
+#apps h6:hover{
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+}
+
